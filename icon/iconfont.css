@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3577275 */
+  src: url('iconfont.woff2?t=1660029530264') format('woff2'),
+       url('iconfont.woff?t=1660029530264') format('woff'),
+       url('iconfont.ttf?t=1660029530264') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cuowu:before {
+  content: "\e600";
+}
+
+.icon-duigou:before {
+  content: "\e632";
+}
+
+.icon-duigouxiao:before {
+  content: "\e8bd";
+}
+
+.icon-duigou_kuai:before {
+  content: "\ed1d";
+}
+

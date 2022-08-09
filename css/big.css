@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url('../image/photo2.webp');
+}
+#box{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 时间显示 */
+#box .time{
+    flex: 1;
+    border:1px solid red;
+    display: flex;
+    align-items: center;
+}
+#box .time h1{
+    color:#5959AB;
+}
+
+
+/* 下方显示内容 */
+#box .content{
+    flex: 1;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+}
+input{
+    width:60%;
+    height:18%;
+    border:none;
+    background-color: transparent;
+    outline:none;
+    border-bottom:5px solid white;
+    border-radius:6px;
+    text-align:center;
+    font-size:26px;
+    color:#5959AB;
+    font-weight:bold;
+    font-family: '华文中宋';
+}
+.icon-duigouxiao{
+    font-size:30px;
+    color:red;
+    margin:10px 0px 0px 10px;
+    transition:0.3s;
+}
+.icon-duigouxiao:hover{
+    color:rgb(41, 230, 41);
+    cursor: pointer;
+}
+/* 展示每次记录内容 */
+#box .record{
+    flex:1;
+    border:1px solid red;
+}
+
